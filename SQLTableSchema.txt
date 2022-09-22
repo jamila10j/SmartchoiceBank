@@ -1,0 +1,14 @@
+CREATE TABLE customerInfo (
+	customer_name TEXT,
+	customer_id varchar(5),
+	customer_address CHAR,
+	customer_oloUN varchar(20),
+	customer_oloPASS varchar(20)
+);
+
+CREATE TABLE accounts (
+	customer_id varchar(5),
+	account_type TEXT,
+	account_number varchar(10),
+	account_balance REAL
+);

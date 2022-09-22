@@ -1,0 +1,9 @@
+int accountSelection = Convert.ToInt32(Console.ReadLine()) - 1 ;
+
+		foreach (string accountNumber in customerAccountNums)
+		{
+			if (accountSelection == Array.IndexOf(customerAccountNums, accountNumber))
+            {
+				AccountSelector(Convert.ToInt32(accountNumber));
+			}
+		}
