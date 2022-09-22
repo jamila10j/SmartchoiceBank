@@ -18,8 +18,8 @@ namespace BankingApplication
 
             SqlConnectionStringBuilder builder = new SqlConnectionStringBuilder();
             builder.DataSource = "jamilbankappserver.database.windows.net";
-            builder.UserID = "jamila_10j";
-            builder.Password = "@DevJamil0925!";
+            builder.UserID = "*********";
+            builder.Password = "************";
             builder.InitialCatalog = "jamilBankApp-database";
 
             SQLBuilder = builder;
